@@ -24,7 +24,8 @@ def augment_images(input_folder, output_folder):
     print("Data augmentation complete. Check the 'augmented_images' folder.")
 
 # Use your absolute paths
-input_folder = r"C:\Users\tejag\Desktop\personalized_avatar\images"
-output_folder = r"C:\Users\tejag\Desktop\personalized_avatar\augmented_images"
+input_folder = r"C:\Users\Desktop\personalized_avatar\images"
+output_folder = r"C:\Users\Desktop\personalized_avatar\augmented_images"
 
 augment_images(input_folder, output_folder)
+
