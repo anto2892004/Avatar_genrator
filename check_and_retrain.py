@@ -2,7 +2,7 @@ import os
 import subprocess
 
 # Define LoRA weight path
-lora_folder = "C:/Users/tejag/Desktop/personalized_avatar/avatar_env/lora_unet"
+lora_folder = "C:/Users/Desktop/personalized_avatar/avatar_env/lora_unet"
 lora_weights = os.path.join(lora_folder, "pytorch_lora_weights.bin")
 
 # Check if the folder and weights exist
@@ -24,3 +24,4 @@ else:
         print("✅ LoRA training completed successfully! Now you can generate avatars.")
     else:
         print("❌ Training completed, but weights are still missing. Check train_lora.py for errors.")
+
